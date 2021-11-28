@@ -1,3 +1,3 @@
 export const CryptoDetails = () => {
-  return <div></div>;
+  return <div>Coin Detail</div>;
 };
