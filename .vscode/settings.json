@@ -1,0 +1,8 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 90,
+  "editor.wrappingStrategy": "advanced",
+  "diffEditor.wordWrap": "on",
+  "editor.wrappingIndent": "indent"
+}

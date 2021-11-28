@@ -17,10 +17,12 @@ export const NavBar = () => {
     <div className="nav-container">
       <div className="logo-container">
         <Avatar src={icon} size="large" />
+
         <Typography.Title level={2} className="logo">
           <Link to="/">Cryptoverse</Link>
         </Typography.Title>
-        <Button className="menu-control-container">Button</Button>
+
+        {/* //! took out the button below because it didnt seem to do anything       <Button className="menu-control-container">Button</Button> */}
       </div>
 
       <Menu theme="dark">
