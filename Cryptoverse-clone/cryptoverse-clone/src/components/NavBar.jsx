@@ -30,7 +30,7 @@ export const NavBar = () => {
           <Link to="/">Home</Link>
         </Menu.Item>
         <Menu.Item icon={<FundOutlined />} key="crypto">
-          <Link to="/cryptocurrencies ">Cryptocurrencies</Link>
+          <Link to="/cryptocurrencies">Cryptocurrencies</Link>
         </Menu.Item>
         <Menu.Item icon={<MoneyCollectOutlined />} key="exchanges">
           <Link to="/exchanges">Exchanges</Link>

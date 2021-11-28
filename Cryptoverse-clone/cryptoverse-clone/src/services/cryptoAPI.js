@@ -14,17 +14,17 @@ export const cryptoApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl }),
   endpoints: (builder) => ({
     getCryptos: builder.query({
-      query: () => createRequest(`/coins`),
+      query: (count) => createRequest(`/coins?limit=${count}`),
     }),
-    getExchanges: builder.query({
-      query: () => createRequest(`/exchanges`),
-    }),
-    getCoin: builder.query({
-      query: () => createRequest(`/crypto/:coinId`),
-    }),
-    getMarkets: builder.query({
-      query: () => createRequest(`/markets`),
-    }),
+    // getExchanges: builder.query({
+    //   query: () => createRequest(`/exchanges`),
+    // }),
+    // getCoin: builder.query({
+    //   query: () => createRequest(`/crypto/:coinId`),
+    // }),
+    // getMarkets: builder.query({
+    //   query: () => createRequest(`/markets`),
+    // }),
   }),
 });
 

@@ -9,7 +9,8 @@ import { useGetCryptosQuery } from "../services/cryptoAPI";
 const { Title } = Typography;
 
 export const Homepage = () => {
-  const { data, isFetching } = useGetCryptosQuery();
+  const count = 8;
+  const { data, isFetching } = useGetCryptosQuery(count);
   const globalStats = data?.data?.stats;
   if (isFetching) {
     return "Loading...";
