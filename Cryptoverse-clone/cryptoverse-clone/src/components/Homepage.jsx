@@ -1,8 +1,11 @@
 import { Col, Row, Statistic, Typography } from "antd";
-import { useGetCryptoQuery, useGetExchangesQuery } from "../services/cryptoAPI";
 
-import { Link } from "react-router-dom";
 import { millify } from "millify";
+import { useGetCryptoQuery } from "../services/cryptoAPI";
+
+//import { Link } from "react-router-dom";
+
+
 
 const { Title } = Typography;
 
