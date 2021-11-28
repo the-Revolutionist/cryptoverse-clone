@@ -16,15 +16,18 @@ export const cryptoApi = createApi({
     getCryptos: builder.query({
       query: (count) => createRequest(`/coins?limit=${count}`),
     }),
-    // getExchanges: builder.query({
-    //   query: () => createRequest(`/exchanges`),
-    // }),
-    // getCoin: builder.query({
-    //   query: () => createRequest(`/crypto/:coinId`),
-    // }),
-    // getMarkets: builder.query({
-    //   query: () => createRequest(`/markets`),
-    // }),
+
+    /* //TODO I though
+    //* getExchanges: builder.query({
+    //*   query: () => createRequest(`/exchanges`),
+    //* }),
+    //* getCoin: builder.query({
+    //*  query: () => createRequest(`/crypto/:coinId`),
+    //* }),
+    //* getMarkets: builder.query({
+    //*   query: () => createRequest(`/markets`),
+    //* }),
+    */
   }),
 });
 
