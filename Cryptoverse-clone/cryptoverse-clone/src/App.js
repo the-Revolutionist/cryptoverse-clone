@@ -2,7 +2,6 @@ import {
   CryptoDetails,
   Cryptocurrencies,
   Exchanges,
-  Footer,
   Homepage,
   NavBar,
   News,
