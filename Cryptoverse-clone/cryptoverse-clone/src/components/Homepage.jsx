@@ -4,9 +4,6 @@ import { millify } from "millify";
 import { useGetCryptoQuery } from "../services/cryptoAPI";
 
 //import { Link } from "react-router-dom";
-
-
-
 const { Title } = Typography;
 
 export const Homepage = () => {
