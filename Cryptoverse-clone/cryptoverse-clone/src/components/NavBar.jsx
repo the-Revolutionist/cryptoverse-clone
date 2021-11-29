@@ -1,11 +1,10 @@
 import "../App.css";
 
-import { Avatar, Button, Menu, Typography } from "antd";
+import { Avatar, Menu, Typography } from "antd";
 import {
   BulbOutlined,
   FundOutlined,
   HomeOutlined,
-  MenuOutlined,
   MoneyCollectOutlined,
 } from "@ant-design/icons";
 

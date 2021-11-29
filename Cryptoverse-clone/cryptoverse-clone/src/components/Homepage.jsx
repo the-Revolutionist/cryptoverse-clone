@@ -16,7 +16,6 @@ export const Homepage = () => {
     return "Loading...";
   }
 
-  console.log(data);
   return (
     <>
       <Title level={2} className="heading">
@@ -72,7 +71,7 @@ export const Homepage = () => {
           <Link to="/news">Show More</Link>
         </Title>
       </div>
-      <News simplified />
+      <News simplified={true} />
     </>
   );
 };

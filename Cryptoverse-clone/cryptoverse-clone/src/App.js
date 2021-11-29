@@ -38,7 +38,6 @@ const App = () => {
               </Switch>
             </div>
           </Layout>
-
           <div className="footer">
             <Typography.Title
               level={5}

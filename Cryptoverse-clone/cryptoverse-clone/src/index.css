@@ -8,6 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+  width: 100vw;
+}
+
 img crypocurrency {
   src: "Cryptoverse-clone\cryptoverse-clone\src\images\cryptocurrency.png";
 }
