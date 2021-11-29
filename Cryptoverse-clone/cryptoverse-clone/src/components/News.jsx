@@ -30,7 +30,7 @@ export const News = ({ simplified }) => {
             <Select
               className="select-news"
               placeholder="Select a news category"
-              showSearch
+              showSearch={true}
               optionFilterProp="children"
               onChange={(value) => setNewsCategory(value)}
               filterOption={(input, option) =>
@@ -38,7 +38,7 @@ export const News = ({ simplified }) => {
               }
             >
               <Option value="Cryptocurrency">Cryptocurrency</Option>
-              {data?.data?.coins.map((coin) => (
+              {data?.data?.coins?.map((coin) => (
                 <Option key={coin.name} value={coin.name}>
                   {coin.name}
                 </Option>
